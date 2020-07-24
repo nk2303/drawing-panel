@@ -26,6 +26,7 @@ The intention is that this custom library will mostly "stay out of the way" so t
 # Example basic usage:
 Here is a canonical example of creating a DrawingPanel of a given size and using it to draw a few shapes.
 
+```
  // basic usage example
  DrawingPanel panel = new DrawingPanel(600, 400);
  Graphics g = panel.getGraphics();
@@ -33,5 +34,6 @@ Here is a canonical example of creating a DrawingPanel of a given size and using
  g.fillRect(17, 45, 139, 241);
  g.drawOval(234, 77, 100, 100);
  ...
+ ```
  
 To ensure that the image is always displayed, a timer calls repaint at regular intervals.
