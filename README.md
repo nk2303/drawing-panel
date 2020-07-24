@@ -1,5 +1,7 @@
 # drawing-panel
 
+![Image of doodle](image/jesse.png)
+
 ```
 public final class DrawingPanel
 extends Object
