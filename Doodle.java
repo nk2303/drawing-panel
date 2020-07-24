@@ -4,8 +4,6 @@ public class Doodle {
     public static void main (String[] args) {
         DrawingPanel panel = new DrawingPanel(500,500);
         Graphics graph = panel.getGraphics();
-        // Graphics body = panel.getGraphics();
-        // Graphics hair = panel.getGraphics();
         graph.setColor(Color.RED);
         graph.drawOval(200, 77, 100, 100);
         graph.setColor(Color.BLUE);
@@ -16,8 +14,8 @@ public class Doodle {
         graph.setColor(Color.BLACK);
         graph.drawOval(230, 120, 10, 10);
         graph.drawOval(270, 120, 10, 10);
-        graph.fillOval(200, 70, 100, 20);
-
+        graph.fillOval(210, 77, 80, 20);
+        graph.drawString("I'm Jesse. I'm stupid", 80, 100);
     }
     
 
