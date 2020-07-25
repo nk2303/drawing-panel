@@ -1,6 +1,9 @@
 # drawing-panel
-
+Doodle.java
 ![Image of doodle](image/jesse.png)
+
+CafeWall.java
+![Image of cafe wall](image/cafe.png)
 
 ```
 public final class DrawingPanel

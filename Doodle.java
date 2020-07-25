@@ -16,8 +16,8 @@ public class Doodle {
         graph.drawOval(270, 120, 10, 10);
         graph.fillOval(210, 77, 80, 20);
         graph.drawString("I'm Jesse. I'm stupid", 80, 100);
+        graph.fillRect(x, y, width, height);
+        graph.drawOval(x, y, width, height);
+        
     }
-    
-
-
 }
